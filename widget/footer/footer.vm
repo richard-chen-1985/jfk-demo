@@ -1,0 +1,14 @@
+#require('widget/footer/footer.scss')
+<div id="footer">
+    <div class="copyright">Copyright © 2004-2015  京东JD.com 版权所有</div>
+    <div class="links">
+        <a href="/help/contact">联系我们</a>　　·　　
+        <a href="/apply">异业联盟合作</a>　　·　　
+        <a href="/help">帮助中心</a>　　
+        官方邮箱：<a href="mailto:jd-yiyelm@jd.com">jd-yiyelm@jd.com</a>
+    </div>
+</div>
+
+<script src="http://misc.360buyimg.com/??jdf/lib/jquery-1.6.4.js,jdf/1.0.0/unit/base/1.0.0/base.js"></script>
+#require('static/lib/sea.js')
+#script()seajs.config({base: pageConfig.cdnUrl});#end
