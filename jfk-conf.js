@@ -42,7 +42,7 @@ var config = {
 jfk.init(config, function(config) {
     jfk.media('local').match('*', {
         deploy: jfk.plugin('local-deliver', {
-            to: 'D:\\StudySpace\\java_test\\jfk-velocity-tools\\src\\main\\webapp'
+            to: 'D:\\GitHub Projects\\jfk-velocity-tools\\src\\main\\webapp'
         })
     });
 })
