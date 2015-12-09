@@ -15,7 +15,7 @@ var config = {
     // 是否开启md5后缀
     useHash: false,
     // 模块化加载器[requirejs|seajs|modjs]
-    loader: 'seajs',
+    loader: null,
     // 打包开关，默认为false
     // 可以手动设置为true，也可以jfk release -p设置为true
     packed: false,

@@ -1,5 +1,5 @@
 #require('widget/header/header.scss')
-#script() seajs.use(['widget/header/header.js']) #end
+#require('widget/header/header.js')
 
 #include('widget/header/jdHeader.vm')
 
